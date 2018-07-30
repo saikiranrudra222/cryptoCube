@@ -4,8 +4,8 @@
     margin: 0;
     padding: 0;
 }
-.title {
-    color: rgb(32, 32, 32);
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 pre {
     margin-bottom: 2rem;
@@ -15,7 +15,6 @@ pre {
 }
 .title {
     color: rgb(7, 206, 140);
-    background-color: rgb(94, 92, 92);
     text-transform: uppercase;
     padding: 1rem 2rem;
     text-align: center;
@@ -24,4 +23,18 @@ input[type = 'text'], input[type = 'submit'] {
     padding: .5rem .7rem;
     margin: .5rem auto;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+input[type = 'submit'] {
+    background-color: rgb(7, 206, 140);
+    color: #eee;
+    outline: none;
+    border: none;
+    border-radius: 10rem;
+    padding: .8rem 2rem;
+    cursor: pointer;
+}
+input[type = 'submit']:hover {
+    background-color: rgb(0, 255, 179);
 }

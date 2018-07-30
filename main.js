@@ -37,7 +37,7 @@ submit.addEventListener('click', () =>{
     }   
     key = key.slice(0, key.length - 1);
     // store rotations as key
-    
+    UIKey.textContent = '';
     UIKey.value = key;
     key = '';
 
