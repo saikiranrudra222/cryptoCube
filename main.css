@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    color: rgb(32, 32, 32);
+}
+pre {
+    margin-bottom: 2rem;
+}
+.cube {
+    color: red;
+}
+.title {
+    color: rgb(7, 206, 140);
+    background-color: rgb(94, 92, 92);
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+input[type = 'text'], input[type = 'submit'] {
+    padding: .5rem .7rem;
+    margin: .5rem auto;
+    font-size: 1.2rem;
+}
